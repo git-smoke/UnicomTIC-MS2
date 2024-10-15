@@ -3,6 +3,98 @@
   "WorkspaceRootPath": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5BEF4535-0B22-4B63-9387-C135E9B2F2C4}|MotorBikeRentalAPI.csproj|x:\\milestone (2) project\\back_end\\webapi\\motorbikerentalapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BEF4535-0B22-4B63-9387-C135E9B2F2C4}|MotorBikeRentalAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BEF4535-0B22-4B63-9387-C135E9B2F2C4}|MotorBikeRentalAPI.csproj|x:\\milestone (2) project\\back_end\\webapi\\motorbikerentalapi\\repositories\\waitlistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BEF4535-0B22-4B63-9387-C135E9B2F2C4}|MotorBikeRentalAPI.csproj|solutionrelative:repositories\\waitlistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BEF4535-0B22-4B63-9387-C135E9B2F2C4}|MotorBikeRentalAPI.csproj|x:\\milestone (2) project\\back_end\\webapi\\motorbikerentalapi\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BEF4535-0B22-4B63-9387-C135E9B2F2C4}|MotorBikeRentalAPI.csproj|solutionrelative:repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BEF4535-0B22-4B63-9387-C135E9B2F2C4}|MotorBikeRentalAPI.csproj|x:\\milestone (2) project\\back_end\\webapi\\motorbikerentalapi\\repositories\\reviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BEF4535-0B22-4B63-9387-C135E9B2F2C4}|MotorBikeRentalAPI.csproj|solutionrelative:repositories\\reviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BEF4535-0B22-4B63-9387-C135E9B2F2C4}|MotorBikeRentalAPI.csproj|x:\\milestone (2) project\\back_end\\webapi\\motorbikerentalapi\\repositories\\rentalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BEF4535-0B22-4B63-9387-C135E9B2F2C4}|MotorBikeRentalAPI.csproj|solutionrelative:repositories\\rentalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BEF4535-0B22-4B63-9387-C135E9B2F2C4}|MotorBikeRentalAPI.csproj|x:\\milestone (2) project\\back_end\\webapi\\motorbikerentalapi\\repositories\\motorbikerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BEF4535-0B22-4B63-9387-C135E9B2F2C4}|MotorBikeRentalAPI.csproj|solutionrelative:repositories\\motorbikerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BEF4535-0B22-4B63-9387-C135E9B2F2C4}|MotorBikeRentalAPI.csproj|x:\\milestone (2) project\\back_end\\webapi\\motorbikerentalapi\\repositories\\maintenancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BEF4535-0B22-4B63-9387-C135E9B2F2C4}|MotorBikeRentalAPI.csproj|solutionrelative:repositories\\maintenancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BEF4535-0B22-4B63-9387-C135E9B2F2C4}|MotorBikeRentalAPI.csproj|x:\\milestone (2) project\\back_end\\webapi\\motorbikerentalapi\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BEF4535-0B22-4B63-9387-C135E9B2F2C4}|MotorBikeRentalAPI.csproj|solutionrelative:repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BEF4535-0B22-4B63-9387-C135E9B2F2C4}|MotorBikeRentalAPI.csproj|x:\\milestone (2) project\\back_end\\webapi\\motorbikerentalapi\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BEF4535-0B22-4B63-9387-C135E9B2F2C4}|MotorBikeRentalAPI.csproj|solutionrelative:repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BEF4535-0B22-4B63-9387-C135E9B2F2C4}|MotorBikeRentalAPI.csproj|x:\\milestone (2) project\\back_end\\webapi\\motorbikerentalapi\\repositories\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BEF4535-0B22-4B63-9387-C135E9B2F2C4}|MotorBikeRentalAPI.csproj|solutionrelative:repositories\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BEF4535-0B22-4B63-9387-C135E9B2F2C4}|MotorBikeRentalAPI.csproj|x:\\milestone (2) project\\back_end\\webapi\\motorbikerentalapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5BEF4535-0B22-4B63-9387-C135E9B2F2C4}|MotorBikeRentalAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BEF4535-0B22-4B63-9387-C135E9B2F2C4}|MotorBikeRentalAPI.csproj|x:\\milestone (2) project\\back_end\\webapi\\motorbikerentalapi\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BEF4535-0B22-4B63-9387-C135E9B2F2C4}|MotorBikeRentalAPI.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BEF4535-0B22-4B63-9387-C135E9B2F2C4}|MotorBikeRentalAPI.csproj|x:\\milestone (2) project\\back_end\\webapi\\motorbikerentalapi\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BEF4535-0B22-4B63-9387-C135E9B2F2C4}|MotorBikeRentalAPI.csproj|solutionrelative:models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BEF4535-0B22-4B63-9387-C135E9B2F2C4}|MotorBikeRentalAPI.csproj|x:\\milestone (2) project\\back_end\\webapi\\motorbikerentalapi\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BEF4535-0B22-4B63-9387-C135E9B2F2C4}|MotorBikeRentalAPI.csproj|solutionrelative:models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BEF4535-0B22-4B63-9387-C135E9B2F2C4}|MotorBikeRentalAPI.csproj|x:\\milestone (2) project\\back_end\\webapi\\motorbikerentalapi\\models\\maintenance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BEF4535-0B22-4B63-9387-C135E9B2F2C4}|MotorBikeRentalAPI.csproj|solutionrelative:models\\maintenance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BEF4535-0B22-4B63-9387-C135E9B2F2C4}|MotorBikeRentalAPI.csproj|x:\\milestone (2) project\\back_end\\webapi\\motorbikerentalapi\\models\\motorbike.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BEF4535-0B22-4B63-9387-C135E9B2F2C4}|MotorBikeRentalAPI.csproj|solutionrelative:models\\motorbike.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BEF4535-0B22-4B63-9387-C135E9B2F2C4}|MotorBikeRentalAPI.csproj|x:\\milestone (2) project\\back_end\\webapi\\motorbikerentalapi\\models\\rental.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BEF4535-0B22-4B63-9387-C135E9B2F2C4}|MotorBikeRentalAPI.csproj|solutionrelative:models\\rental.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BEF4535-0B22-4B63-9387-C135E9B2F2C4}|MotorBikeRentalAPI.csproj|x:\\milestone (2) project\\back_end\\webapi\\motorbikerentalapi\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BEF4535-0B22-4B63-9387-C135E9B2F2C4}|MotorBikeRentalAPI.csproj|solutionrelative:models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BEF4535-0B22-4B63-9387-C135E9B2F2C4}|MotorBikeRentalAPI.csproj|x:\\milestone (2) project\\back_end\\webapi\\motorbikerentalapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BEF4535-0B22-4B63-9387-C135E9B2F2C4}|MotorBikeRentalAPI.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BEF4535-0B22-4B63-9387-C135E9B2F2C4}|MotorBikeRentalAPI.csproj|x:\\milestone (2) project\\back_end\\webapi\\motorbikerentalapi\\models\\waitlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BEF4535-0B22-4B63-9387-C135E9B2F2C4}|MotorBikeRentalAPI.csproj|solutionrelative:models\\waitlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BEF4535-0B22-4B63-9387-C135E9B2F2C4}|MotorBikeRentalAPI.csproj|x:\\milestone (2) project\\back_end\\webapi\\motorbikerentalapi\\motorbikerentalapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5BEF4535-0B22-4B63-9387-C135E9B2F2C4}|MotorBikeRentalAPI.csproj|solutionrelative:motorbikerentalapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BEF4535-0B22-4B63-9387-C135E9B2F2C4}|MotorBikeRentalAPI.csproj|x:\\milestone (2) project\\back_end\\webapi\\motorbikerentalapi\\dtos\\customerdto\\customerlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BEF4535-0B22-4B63-9387-C135E9B2F2C4}|MotorBikeRentalAPI.csproj|solutionrelative:dtos\\customerdto\\customerlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BEF4535-0B22-4B63-9387-C135E9B2F2C4}|MotorBikeRentalAPI.csproj|x:\\milestone (2) project\\back_end\\webapi\\motorbikerentalapi\\dtos\\customerdto\\customerregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BEF4535-0B22-4B63-9387-C135E9B2F2C4}|MotorBikeRentalAPI.csproj|solutionrelative:dtos\\customerdto\\customerregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5BEF4535-0B22-4B63-9387-C135E9B2F2C4}|MotorBikeRentalAPI.csproj|x:\\milestone (2) project\\back_end\\webapi\\motorbikerentalapi\\controllers\\waitlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5BEF4535-0B22-4B63-9387-C135E9B2F2C4}|MotorBikeRentalAPI.csproj|solutionrelative:controllers\\waitlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -99,42 +191,6 @@
       "RelativeMoniker": "D:0:0:{5BEF4535-0B22-4B63-9387-C135E9B2F2C4}|MotorBikeRentalAPI.csproj|solutionrelative:irepositories\\iadminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5BEF4535-0B22-4B63-9387-C135E9B2F2C4}|MotorBikeRentalAPI.csproj|x:\\milestone (2) project\\back_end\\webapi\\motorbikerentalapi\\repositories\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BEF4535-0B22-4B63-9387-C135E9B2F2C4}|MotorBikeRentalAPI.csproj|solutionrelative:repositories\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BEF4535-0B22-4B63-9387-C135E9B2F2C4}|MotorBikeRentalAPI.csproj|x:\\milestone (2) project\\back_end\\webapi\\motorbikerentalapi\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BEF4535-0B22-4B63-9387-C135E9B2F2C4}|MotorBikeRentalAPI.csproj|solutionrelative:repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BEF4535-0B22-4B63-9387-C135E9B2F2C4}|MotorBikeRentalAPI.csproj|x:\\milestone (2) project\\back_end\\webapi\\motorbikerentalapi\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BEF4535-0B22-4B63-9387-C135E9B2F2C4}|MotorBikeRentalAPI.csproj|solutionrelative:repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BEF4535-0B22-4B63-9387-C135E9B2F2C4}|MotorBikeRentalAPI.csproj|x:\\milestone (2) project\\back_end\\webapi\\motorbikerentalapi\\repositories\\maintenancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BEF4535-0B22-4B63-9387-C135E9B2F2C4}|MotorBikeRentalAPI.csproj|solutionrelative:repositories\\maintenancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BEF4535-0B22-4B63-9387-C135E9B2F2C4}|MotorBikeRentalAPI.csproj|x:\\milestone (2) project\\back_end\\webapi\\motorbikerentalapi\\repositories\\motorbikerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BEF4535-0B22-4B63-9387-C135E9B2F2C4}|MotorBikeRentalAPI.csproj|solutionrelative:repositories\\motorbikerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BEF4535-0B22-4B63-9387-C135E9B2F2C4}|MotorBikeRentalAPI.csproj|x:\\milestone (2) project\\back_end\\webapi\\motorbikerentalapi\\repositories\\rentalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BEF4535-0B22-4B63-9387-C135E9B2F2C4}|MotorBikeRentalAPI.csproj|solutionrelative:repositories\\rentalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BEF4535-0B22-4B63-9387-C135E9B2F2C4}|MotorBikeRentalAPI.csproj|x:\\milestone (2) project\\back_end\\webapi\\motorbikerentalapi\\repositories\\reviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BEF4535-0B22-4B63-9387-C135E9B2F2C4}|MotorBikeRentalAPI.csproj|solutionrelative:repositories\\reviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BEF4535-0B22-4B63-9387-C135E9B2F2C4}|MotorBikeRentalAPI.csproj|x:\\milestone (2) project\\back_end\\webapi\\motorbikerentalapi\\repositories\\waitlistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BEF4535-0B22-4B63-9387-C135E9B2F2C4}|MotorBikeRentalAPI.csproj|solutionrelative:repositories\\waitlistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BEF4535-0B22-4B63-9387-C135E9B2F2C4}|MotorBikeRentalAPI.csproj|x:\\milestone (2) project\\back_end\\webapi\\motorbikerentalapi\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BEF4535-0B22-4B63-9387-C135E9B2F2C4}|MotorBikeRentalAPI.csproj|solutionrelative:repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5BEF4535-0B22-4B63-9387-C135E9B2F2C4}|MotorBikeRentalAPI.csproj|x:\\milestone (2) project\\back_end\\webapi\\motorbikerentalapi\\irepositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5BEF4535-0B22-4B63-9387-C135E9B2F2C4}|MotorBikeRentalAPI.csproj|solutionrelative:irepositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -190,7 +246,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -198,416 +254,631 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MotorBikeRepository.cs",
+              "DocumentMoniker": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Repositories\\MotorBikeRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\MotorBikeRepository.cs",
+              "ToolTip": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Repositories\\MotorBikeRepository.cs",
+              "RelativeToolTip": "Repositories\\MotorBikeRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T07:15:14.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "RentalRepository.cs",
+              "DocumentMoniker": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Repositories\\RentalRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\RentalRepository.cs",
+              "ToolTip": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Repositories\\RentalRepository.cs",
+              "RelativeToolTip": "Repositories\\RentalRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T07:16:15.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ReviewRepository.cs",
+              "DocumentMoniker": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Repositories\\ReviewRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ReviewRepository.cs",
+              "ToolTip": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Repositories\\ReviewRepository.cs",
+              "RelativeToolTip": "Repositories\\ReviewRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T07:16:26.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\UserRepository.cs",
+              "ToolTip": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Repositories\\UserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T07:14:52.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WaitListRepository.cs",
+              "DocumentMoniker": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Repositories\\WaitListRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\WaitListRepository.cs",
+              "ToolTip": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Repositories\\WaitListRepository.cs",
+              "RelativeToolTip": "Repositories\\WaitListRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T07:16:35.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAABhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T12:43:32.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MaintenanceRepository.cs",
+              "DocumentMoniker": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Repositories\\MaintenanceRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\MaintenanceRepository.cs",
+              "ToolTip": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Repositories\\MaintenanceRepository.cs",
+              "RelativeToolTip": "Repositories\\MaintenanceRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T07:16:50.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Repositories\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\CustomerRepository.cs",
+              "ToolTip": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Repositories\\CustomerRepository.cs",
+              "RelativeToolTip": "Repositories\\CustomerRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T07:15:46.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Repositories\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\CategoryRepository.cs",
+              "ToolTip": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Repositories\\CategoryRepository.cs",
+              "RelativeToolTip": "Repositories\\CategoryRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T07:15:32.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AdminRepository.cs",
+              "DocumentMoniker": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Repositories\\AdminRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\AdminRepository.cs",
+              "ToolTip": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Repositories\\AdminRepository.cs",
+              "RelativeToolTip": "Repositories\\AdminRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T07:15:04.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-15T13:15:33.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Category.cs",
+              "DocumentMoniker": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Models\\Category.cs",
+              "ToolTip": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Models\\Category.cs",
+              "RelativeToolTip": "Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T11:55:30.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Models\\Admin.cs",
+              "RelativeDocumentMoniker": "Models\\Admin.cs",
+              "ToolTip": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Models\\Admin.cs",
+              "RelativeToolTip": "Models\\Admin.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T11:54:27.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "Models\\Customer.cs",
+              "ToolTip": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Models\\Customer.cs",
+              "RelativeToolTip": "Models\\Customer.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAA9wBcAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T11:54:38.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Maintenance.cs",
+              "DocumentMoniker": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Models\\Maintenance.cs",
+              "RelativeDocumentMoniker": "Models\\Maintenance.cs",
+              "ToolTip": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Models\\Maintenance.cs",
+              "RelativeToolTip": "Models\\Maintenance.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAA1wA8AAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T11:56:21.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Rental.cs",
+              "DocumentMoniker": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Models\\Rental.cs",
+              "RelativeDocumentMoniker": "Models\\Rental.cs",
+              "ToolTip": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Models\\Rental.cs",
+              "RelativeToolTip": "Models\\Rental.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T11:55:43.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Review.cs",
+              "DocumentMoniker": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Models\\Review.cs",
+              "RelativeDocumentMoniker": "Models\\Review.cs",
+              "ToolTip": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Models\\Review.cs",
+              "RelativeToolTip": "Models\\Review.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T11:55:54.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "User.cs",
+              "DocumentMoniker": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T11:53:58.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "WaitList.cs",
+              "DocumentMoniker": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Models\\WaitList.cs",
+              "RelativeDocumentMoniker": "Models\\WaitList.cs",
+              "ToolTip": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Models\\WaitList.cs",
+              "RelativeToolTip": "Models\\WaitList.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T11:56:07.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MotorBike.cs",
+              "DocumentMoniker": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Models\\MotorBike.cs",
+              "RelativeDocumentMoniker": "Models\\MotorBike.cs",
+              "ToolTip": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Models\\MotorBike.cs",
+              "RelativeToolTip": "Models\\MotorBike.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAxwBAAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T11:55:22.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CustomerLoginDTO.cs",
+              "DocumentMoniker": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\DTOs\\CustomerDTO\\CustomerLoginDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\CustomerDTO\\CustomerLoginDTO.cs",
+              "ToolTip": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\DTOs\\CustomerDTO\\CustomerLoginDTO.cs",
+              "RelativeToolTip": "DTOs\\CustomerDTO\\CustomerLoginDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T11:51:04.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MotorBikeRentalAPI.csproj",
+              "DocumentMoniker": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\MotorBikeRentalAPI.csproj",
+              "RelativeDocumentMoniker": "MotorBikeRentalAPI.csproj",
+              "ToolTip": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\MotorBikeRentalAPI.csproj",
+              "RelativeToolTip": "MotorBikeRentalAPI.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-15T12:01:58.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CustomerRegisterDTO.cs",
+              "DocumentMoniker": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\DTOs\\CustomerDTO\\CustomerRegisterDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\CustomerDTO\\CustomerRegisterDTO.cs",
+              "ToolTip": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\DTOs\\CustomerDTO\\CustomerRegisterDTO.cs",
+              "RelativeToolTip": "DTOs\\CustomerDTO\\CustomerRegisterDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T11:51:19.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
               "Title": "MotorBikeController.cs",
               "DocumentMoniker": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Controllers\\MotorBikeController.cs",
               "RelativeDocumentMoniker": "Controllers\\MotorBikeController.cs",
               "ToolTip": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Controllers\\MotorBikeController.cs",
               "RelativeToolTip": "Controllers\\MotorBikeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T08:28:41.024Z"
+              "WhenOpened": "2024-10-14T08:28:41.024Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 26,
               "Title": "RentalController.cs",
               "DocumentMoniker": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Controllers\\RentalController.cs",
               "RelativeDocumentMoniker": "Controllers\\RentalController.cs",
               "ToolTip": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Controllers\\RentalController.cs",
               "RelativeToolTip": "Controllers\\RentalController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T09:56:10.291Z"
+              "WhenOpened": "2024-10-14T09:56:10.291Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 23,
               "Title": "WaitListController.cs",
               "DocumentMoniker": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Controllers\\WaitListController.cs",
               "RelativeDocumentMoniker": "Controllers\\WaitListController.cs",
               "ToolTip": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Controllers\\WaitListController.cs",
               "RelativeToolTip": "Controllers\\WaitListController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-14T09:56:31.368Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 28,
               "Title": "MaintenanceController.cs",
               "DocumentMoniker": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Controllers\\MaintenanceController.cs",
               "RelativeDocumentMoniker": "Controllers\\MaintenanceController.cs",
               "ToolTip": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Controllers\\MaintenanceController.cs",
               "RelativeToolTip": "Controllers\\MaintenanceController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA4AAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T09:56:43.995Z"
+              "WhenOpened": "2024-10-14T09:56:43.995Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 25,
               "Title": "ReviewController.cs",
               "DocumentMoniker": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Controllers\\ReviewController.cs",
               "RelativeDocumentMoniker": "Controllers\\ReviewController.cs",
               "ToolTip": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Controllers\\ReviewController.cs",
               "RelativeToolTip": "Controllers\\ReviewController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T09:56:20.929Z"
+              "WhenOpened": "2024-10-14T09:56:20.929Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 24,
               "Title": "UserController.cs",
               "DocumentMoniker": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Controllers\\UserController.cs",
               "ToolTip": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Controllers\\UserController.cs",
               "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T08:15:57.311Z"
+              "WhenOpened": "2024-10-14T08:15:57.311Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 29,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "Controllers\\CategoryController.cs",
               "ToolTip": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Controllers\\CategoryController.cs",
               "RelativeToolTip": "Controllers\\CategoryController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAvAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T09:23:02.323Z"
+              "WhenOpened": "2024-10-14T09:23:02.323Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 30,
               "Title": "CustomerController.cs",
               "DocumentMoniker": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Controllers\\CustomerController.cs",
               "RelativeDocumentMoniker": "Controllers\\CustomerController.cs",
               "ToolTip": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Controllers\\CustomerController.cs",
               "RelativeToolTip": "Controllers\\CustomerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T08:58:19.295Z"
+              "WhenOpened": "2024-10-14T08:58:19.295Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 31,
               "Title": "AdminController.cs",
               "DocumentMoniker": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
               "ToolTip": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Controllers\\AdminController.cs",
               "RelativeToolTip": "Controllers\\AdminController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAApAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T08:24:04.524Z"
+              "WhenOpened": "2024-10-14T08:24:04.524Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 32,
               "Title": "WaitListService.cs",
               "DocumentMoniker": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Services\\WaitListService.cs",
               "RelativeDocumentMoniker": "Services\\WaitListService.cs",
               "ToolTip": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Services\\WaitListService.cs",
               "RelativeToolTip": "Services\\WaitListService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA1AAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T07:27:10.812Z"
+              "WhenOpened": "2024-10-14T07:27:10.812Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 33,
               "Title": "UserService.cs",
               "DocumentMoniker": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "Services\\UserService.cs",
               "ToolTip": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Services\\UserService.cs",
               "RelativeToolTip": "Services\\UserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAtAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T07:24:34.814Z"
+              "WhenOpened": "2024-10-14T07:24:34.814Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 34,
               "Title": "ReviewService.cs",
               "DocumentMoniker": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Services\\ReviewService.cs",
               "RelativeDocumentMoniker": "Services\\ReviewService.cs",
               "ToolTip": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Services\\ReviewService.cs",
               "RelativeToolTip": "Services\\ReviewService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAxAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T07:27:00.889Z"
+              "WhenOpened": "2024-10-14T07:27:00.889Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 35,
               "Title": "RentalService.cs",
               "DocumentMoniker": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Services\\RentalService.cs",
               "RelativeDocumentMoniker": "Services\\RentalService.cs",
               "ToolTip": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Services\\RentalService.cs",
               "RelativeToolTip": "Services\\RentalService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAxAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T07:25:42.116Z"
+              "WhenOpened": "2024-10-14T07:25:42.116Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 36,
               "Title": "MotorBikeService.cs",
               "DocumentMoniker": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Services\\MotorBikeService.cs",
               "RelativeDocumentMoniker": "Services\\MotorBikeService.cs",
               "ToolTip": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Services\\MotorBikeService.cs",
               "RelativeToolTip": "Services\\MotorBikeService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA3AAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T07:24:55.724Z"
+              "WhenOpened": "2024-10-14T07:24:55.724Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 37,
               "Title": "MaintenanceService.cs",
               "DocumentMoniker": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Services\\MaintenanceService.cs",
               "RelativeDocumentMoniker": "Services\\MaintenanceService.cs",
               "ToolTip": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Services\\MaintenanceService.cs",
               "RelativeToolTip": "Services\\MaintenanceService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA7AAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T07:27:22.659Z"
+              "WhenOpened": "2024-10-14T07:27:22.659Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 38,
               "Title": "CustomerService.cs",
               "DocumentMoniker": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Services\\CustomerService.cs",
               "RelativeDocumentMoniker": "Services\\CustomerService.cs",
               "ToolTip": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Services\\CustomerService.cs",
               "RelativeToolTip": "Services\\CustomerService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA1AAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T07:25:20.508Z"
+              "WhenOpened": "2024-10-14T07:25:20.508Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 39,
               "Title": "ICustomerService.cs",
               "DocumentMoniker": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\IServices\\ICustomerService.cs",
               "RelativeDocumentMoniker": "IServices\\ICustomerService.cs",
               "ToolTip": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\IServices\\ICustomerService.cs",
               "RelativeToolTip": "IServices\\ICustomerService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T23:56:21.696Z"
+              "WhenOpened": "2024-10-14T23:56:21.696Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 40,
               "Title": "CategoryService.cs",
               "DocumentMoniker": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Services\\CategoryService.cs",
               "RelativeDocumentMoniker": "Services\\CategoryService.cs",
               "ToolTip": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Services\\CategoryService.cs",
               "RelativeToolTip": "Services\\CategoryService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA1AAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T07:25:10.982Z"
+              "WhenOpened": "2024-10-14T07:25:10.982Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 41,
               "Title": "AdminService.cs",
               "DocumentMoniker": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Services\\AdminService.cs",
               "RelativeDocumentMoniker": "Services\\AdminService.cs",
               "ToolTip": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Services\\AdminService.cs",
               "RelativeToolTip": "Services\\AdminService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T07:24:45.372Z"
+              "WhenOpened": "2024-10-14T07:24:45.372Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 42,
               "Title": "IWaitListRepository.cs",
               "DocumentMoniker": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\IRepositories\\IWaitListRepository.cs",
               "RelativeDocumentMoniker": "IRepositories\\IWaitListRepository.cs",
               "ToolTip": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\IRepositories\\IWaitListRepository.cs",
               "RelativeToolTip": "IRepositories\\IWaitListRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T07:23:28.136Z"
+              "WhenOpened": "2024-10-14T07:23:28.136Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 43,
               "Title": "IReviewRepository.cs",
               "DocumentMoniker": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\IRepositories\\IReviewRepository.cs",
               "RelativeDocumentMoniker": "IRepositories\\IReviewRepository.cs",
               "ToolTip": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\IRepositories\\IReviewRepository.cs",
               "RelativeToolTip": "IRepositories\\IReviewRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T07:23:12.454Z"
+              "WhenOpened": "2024-10-14T07:23:12.454Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 44,
               "Title": "ICustomerRepository.cs",
               "DocumentMoniker": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\IRepositories\\ICustomerRepository.cs",
               "RelativeDocumentMoniker": "IRepositories\\ICustomerRepository.cs",
               "ToolTip": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\IRepositories\\ICustomerRepository.cs",
               "RelativeToolTip": "IRepositories\\ICustomerRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T07:21:07.135Z"
+              "WhenOpened": "2024-10-14T07:21:07.135Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 45,
               "Title": "ICategoryRepository.cs",
               "DocumentMoniker": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\IRepositories\\ICategoryRepository.cs",
               "RelativeDocumentMoniker": "IRepositories\\ICategoryRepository.cs",
               "ToolTip": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\IRepositories\\ICategoryRepository.cs",
               "RelativeToolTip": "IRepositories\\ICategoryRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T07:20:51.234Z"
+              "WhenOpened": "2024-10-14T07:20:51.234Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 46,
               "Title": "IAdminRepository.cs",
               "DocumentMoniker": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\IRepositories\\IAdminRepository.cs",
               "RelativeDocumentMoniker": "IRepositories\\IAdminRepository.cs",
               "ToolTip": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\IRepositories\\IAdminRepository.cs",
               "RelativeToolTip": "IRepositories\\IAdminRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T07:19:45.929Z"
+              "WhenOpened": "2024-10-14T07:19:45.929Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "AdminRepository.cs",
-              "DocumentMoniker": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Repositories\\AdminRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\AdminRepository.cs",
-              "ToolTip": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Repositories\\AdminRepository.cs",
-              "RelativeToolTip": "Repositories\\AdminRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAACCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T07:15:04.095Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "CategoryRepository.cs",
-              "DocumentMoniker": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Repositories\\CategoryRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\CategoryRepository.cs",
-              "ToolTip": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Repositories\\CategoryRepository.cs",
-              "RelativeToolTip": "Repositories\\CategoryRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAACCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T07:15:32.207Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "CustomerRepository.cs",
-              "DocumentMoniker": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Repositories\\CustomerRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\CustomerRepository.cs",
-              "ToolTip": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Repositories\\CustomerRepository.cs",
-              "RelativeToolTip": "Repositories\\CustomerRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T07:15:46.347Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "MaintenanceRepository.cs",
-              "DocumentMoniker": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Repositories\\MaintenanceRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\MaintenanceRepository.cs",
-              "ToolTip": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Repositories\\MaintenanceRepository.cs",
-              "RelativeToolTip": "Repositories\\MaintenanceRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAACCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T07:16:50.214Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "MotorBikeRepository.cs",
-              "DocumentMoniker": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Repositories\\MotorBikeRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\MotorBikeRepository.cs",
-              "ToolTip": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Repositories\\MotorBikeRepository.cs",
-              "RelativeToolTip": "Repositories\\MotorBikeRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAACCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T07:15:14.801Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "RentalRepository.cs",
-              "DocumentMoniker": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Repositories\\RentalRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\RentalRepository.cs",
-              "ToolTip": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Repositories\\RentalRepository.cs",
-              "RelativeToolTip": "Repositories\\RentalRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAACCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T07:16:15.029Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "ReviewRepository.cs",
-              "DocumentMoniker": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Repositories\\ReviewRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\ReviewRepository.cs",
-              "ToolTip": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Repositories\\ReviewRepository.cs",
-              "RelativeToolTip": "Repositories\\ReviewRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAACCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T07:16:26.711Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "WaitListRepository.cs",
-              "DocumentMoniker": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Repositories\\WaitListRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\WaitListRepository.cs",
-              "ToolTip": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Repositories\\WaitListRepository.cs",
-              "RelativeToolTip": "Repositories\\WaitListRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAACCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T07:16:35.771Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\UserRepository.cs",
-              "ToolTip": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "Repositories\\UserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T07:14:52.691Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 47,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\IRepositories\\IUserRepository.cs",
               "RelativeDocumentMoniker": "IRepositories\\IUserRepository.cs",
               "ToolTip": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\IRepositories\\IUserRepository.cs",
               "RelativeToolTip": "IRepositories\\IUserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAkAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T07:19:28.102Z"
+              "WhenOpened": "2024-10-14T07:19:28.102Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 49,
               "Title": "IRentalRepository.cs",
               "DocumentMoniker": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\IRepositories\\IRentalRepository.cs",
               "RelativeDocumentMoniker": "IRepositories\\IRentalRepository.cs",
@@ -615,11 +886,12 @@
               "RelativeToolTip": "IRepositories\\IRentalRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T07:21:20.519Z"
+              "WhenOpened": "2024-10-14T07:21:20.519Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 48,
               "Title": "IMotorBikeRepository.cs",
               "DocumentMoniker": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\IRepositories\\IMotorBikeRepository.cs",
               "RelativeDocumentMoniker": "IRepositories\\IMotorBikeRepository.cs",
@@ -627,11 +899,12 @@
               "RelativeToolTip": "IRepositories\\IMotorBikeRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T07:20:06.717Z"
+              "WhenOpened": "2024-10-14T07:20:06.717Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 50,
               "Title": "IAdminService.cs",
               "DocumentMoniker": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\IServices\\IAdminService.cs",
               "RelativeDocumentMoniker": "IServices\\IAdminService.cs",
@@ -639,11 +912,12 @@
               "RelativeToolTip": "IServices\\IAdminService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T07:28:31.133Z"
+              "WhenOpened": "2024-10-14T07:28:31.133Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 51,
               "Title": "ICategoryService.cs",
               "DocumentMoniker": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\IServices\\ICategoryService.cs",
               "RelativeDocumentMoniker": "IServices\\ICategoryService.cs",
@@ -651,11 +925,12 @@
               "RelativeToolTip": "IServices\\ICategoryService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T08:06:33.453Z"
+              "WhenOpened": "2024-10-14T08:06:33.453Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 52,
               "Title": "IMaintenanceService.cs",
               "DocumentMoniker": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\IServices\\IMaintenanceService.cs",
               "RelativeDocumentMoniker": "IServices\\IMaintenanceService.cs",
@@ -663,11 +938,12 @@
               "RelativeToolTip": "IServices\\IMaintenanceService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T08:11:07.908Z"
+              "WhenOpened": "2024-10-14T08:11:07.908Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 53,
               "Title": "IMotorBikeService.cs",
               "DocumentMoniker": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\IServices\\IMotorBikeService.cs",
               "RelativeDocumentMoniker": "IServices\\IMotorBikeService.cs",
@@ -675,11 +951,12 @@
               "RelativeToolTip": "IServices\\IMotorBikeService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T08:11:50.326Z"
+              "WhenOpened": "2024-10-14T08:11:50.326Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 54,
               "Title": "IRentalService.cs",
               "DocumentMoniker": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\IServices\\IRentalService.cs",
               "RelativeDocumentMoniker": "IServices\\IRentalService.cs",
@@ -687,11 +964,12 @@
               "RelativeToolTip": "IServices\\IRentalService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T08:10:17.779Z"
+              "WhenOpened": "2024-10-14T08:10:17.779Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 55,
               "Title": "IReviewService.cs",
               "DocumentMoniker": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\IServices\\IReviewService.cs",
               "RelativeDocumentMoniker": "IServices\\IReviewService.cs",
@@ -699,11 +977,12 @@
               "RelativeToolTip": "IServices\\IReviewService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T08:10:39.164Z"
+              "WhenOpened": "2024-10-14T08:10:39.164Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 56,
               "Title": "IUserService.cs",
               "DocumentMoniker": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\IServices\\IUserService.cs",
               "RelativeDocumentMoniker": "IServices\\IUserService.cs",
@@ -711,11 +990,12 @@
               "RelativeToolTip": "IServices\\IUserService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T07:28:14.256Z"
+              "WhenOpened": "2024-10-14T07:28:14.256Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 57,
               "Title": "IWaitListService.cs",
               "DocumentMoniker": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\IServices\\IWaitListService.cs",
               "RelativeDocumentMoniker": "IServices\\IWaitListService.cs",
@@ -723,11 +1003,12 @@
               "RelativeToolTip": "IServices\\IWaitListService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T08:10:53.537Z"
+              "WhenOpened": "2024-10-14T08:10:53.537Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 58,
               "Title": "IMaintenanceRepository.cs",
               "DocumentMoniker": "X:\\MILESTONE (2) PROJECT\\BACK_END\\WEBAPI\\MotorBikeRentalAPI\\IRepositories\\IMaintenanceRepository.cs",
               "RelativeDocumentMoniker": "IRepositories\\IMaintenanceRepository.cs",
@@ -735,7 +1016,8 @@
               "RelativeToolTip": "IRepositories\\IMaintenanceRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T07:23:41.001Z"
+              "WhenOpened": "2024-10-14T07:23:41.001Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -4,6 +4,12 @@ namespace MotorBikeRentalAPI.Repositories
 {
     public class AdminRepository : IAdminRepository
     {
-        private readonly string connection_String = "Server=SMOKE-PC;Database=MotorBikeRentalManagement;Trusted_Connection=True;";
+        private readonly string _connectionString;
+
+        public AdminRepository(string connectionString)
+        {
+            _connectionString = connectionString;
+        }
+
     }
 }
