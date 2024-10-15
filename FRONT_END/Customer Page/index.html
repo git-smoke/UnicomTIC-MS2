@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bike Shop Customer Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    #sidebar {
+      width: 200px;
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      height: 100vh;
+    }
+
+    #sidebar a {
+      color: white;
+      text-decoration: none;
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    #main-content {
+      flex-grow: 1;
+      padding: 20px;
+    }
+
+    #profile {
+      position: absolute;
+      top: 10px;
+      left: 220px;
+      cursor: pointer;
+    }
+
+    #profile-popup {
+      display: none;
+      position: absolute;
+      top: 40px;
+      left: 220px;
+      background-color: white;
+      border: 1px solid #ccc;
+      padding: 10px;
+    }
+
+    .bike {
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+
+    .review {
+      border: 1px solid #ddd;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="sidebar">
+    <h2>Bike Shop</h2>
+    <a href="#browse">Browse Bikes</a>
+    <a href="#waitlist">Waitlist</a>
+    <a href="#reviews">Reviews</a>
+    <a href="#history">History</a>
+  </div>
+
+  <div id="main-content">
+    <div id="profile">
+      <img src="https://via.placeholder.com/40" alt="Profile" onclick="toggleProfilePopup()">
+      <div id="profile-popup">
+        <p>Name: John Doe</p>
+        <p>Email: john@example.com</p>
+        <button onclick="logout()">Logout</button>
+      </div>
+    </div>
+    <div id="content"></div>
+  </div>
+
+  <script>
+    const routes = {
+      browse: `
+                <h1>Browse Bikes</h1>
+                <div class="bike">
+                    <h3>Mountain Bike XTR</h3>
+                    <p>Price: $999</p>
+                    <button onclick="bookBike('Mountain Bike XTR')">Book Now</button>
+                </div>
+                <div class="bike">
+                    <h3>City Cruiser Deluxe</h3>
+                    <p>Price: $599</p>
+                    <button onclick="bookBike('City Cruiser Deluxe')">Book Now</button>
+                </div>
+            `,
+      waitlist: `
+                <h1>Waitlist</h1>
+                <p>Join the waitlist for our most popular bikes!</p>
+                <form onsubmit="joinWaitlist(event)">
+                    <select name="bike">
+                        <option value="ElectricPro">Electric Pro</option>
+                        <option value="RacerX">Racer X</option>
+                    </select>
+                    <button type="submit">Join Waitlist</button>
+                </form>
+            `,
+      reviews: `
+                <h1>Reviews</h1>
+                <div id="reviews-list"></div>
+                <h2>Write a Review</h2>
+                <form onsubmit="submitReview(event)">
+                    <select name="bike">
+                        <option value="Mountain Bike XTR">Mountain Bike XTR</option>
+                        <option value="City Cruiser Deluxe">City Cruiser Deluxe</option>
+                    </select>
+                    <textarea name="review" placeholder="Your review"></textarea>
+                    <button type="submit">Submit Review</button>
+                </form>
+            `,
+      history: `
+                <h1>Booking History</h1>
+                <ul id="booking-history"></ul>
+            `
+    };
+
+    function router() {
+      let hash = window.location.hash.slice(1) || 'browse';
+      document.getElementById('content').innerHTML = routes[hash] || routes.browse;
+      if (hash === 'reviews') loadReviews();
+      if (hash === 'history') loadBookingHistory();
+    }
+
+    function toggleProfilePopup() {
+      const popup = document.getElementById('profile-popup');
+      popup.style.display = popup.style.display === 'none' ? 'block' : 'none';
+    }
+
+    function logout() {
+      alert('Logged out successfully');
+      toggleProfilePopup();
+    }
+
+    function bookBike(bikeName) {
+      alert(`You've booked the ${bikeName}`);
+      let history = JSON.parse(localStorage.getItem('bookingHistory')) || [];
+      history.push({ bike: bikeName, date: new Date().toLocaleDateString() });
+      localStorage.setItem('bookingHistory', JSON.stringify(history));
+    }
+
+    function joinWaitlist(event) {
+      event.preventDefault();
+      const bike = event.target.bike.value;
+      alert(`You've joined the waitlist for ${bike}`);
+    }
+
+    function submitReview(event) {
+      event.preventDefault();
+      const bike = event.target.bike.value;
+      const review = event.target.review.value;
+      let reviews = JSON.parse(localStorage.getItem('bikeReviews')) || [];
+      reviews.push({ bike, review });
+      localStorage.setItem('bikeReviews', JSON.stringify(reviews));
+      alert('Review submitted successfully');
+      loadReviews();
+    }
+
+    function loadReviews() {
+      const reviewsList = document.getElementById('reviews-list');
+      const reviews = JSON.parse(localStorage.getItem('bikeReviews')) || [];
+      reviewsList.innerHTML = reviews.map(r => `
+                <div class="review">
+                    <h3>${r.bike}</h3>
+                    <p>${r.review}</p>
+                </div>
+            `).join('');
+    }
+
+    function loadBookingHistory() {
+      const historyList = document.getElementById('booking-history');
+      const history = JSON.parse(localStorage.getItem('bookingHistory')) || [];
+      historyList.innerHTML = history.map(h => `
+                <li>${h.bike} - Booked on ${h.date}</li>
+            `).join('');
+    }
+
+    window.addEventListener('hashchange', router);
+    window.addEventListener('load', router);
+  </script>
+</body>
+
+</html>
