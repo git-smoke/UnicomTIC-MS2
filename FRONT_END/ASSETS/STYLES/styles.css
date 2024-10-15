@@ -1,13 +1,26 @@
-*{
+body {
+  font-family: Arial, sans-serif;
   margin: 0;
-  padding: 0;
+  padding: 20px;
+  background-color: #f7f7f7;
 }
 
-.nav__main {
-  display: flex;
-  flex-direction: row;
+nav {
+  margin-bottom: 20px;
 }
 
-.nav__content li{
-  display: inline-block;
+nav a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #333;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+#content {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
 }
