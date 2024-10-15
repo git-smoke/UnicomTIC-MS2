@@ -66,11 +66,9 @@ CREATE TABLE MotorBikes(
 );
 GO
 
-SELECT * FROM MotorBikes;
-GO
 
 CREATE TABLE Customers(
-	Nic_Number NVARCHAR(40)  PRIMARY KEY,
+	Nic_Number NVARCHAR(40) PRIMARY KEY,
 	Users_Id INT,
 	First_Name NVARCHAR(50),
 	Last_Name NVARCHAR(50),
@@ -89,14 +87,13 @@ CREATE TABLE Customers(
 )
 GO
 
-SELECT * FROM Customers;
-GO
+
 
 DROP TABLE Customers;
 
 CREATE TABLE Rentals(
 	Id INT IDENTITY(1,1) PRIMARY KEY,
-	Nic_Number NVARCHAR(40),
+	Nic_Number NVARCHAR(40) NOT NULL REFERENCES Customers(Nic_Number),
 	Registration_Number NVARCHAR(50),
 	Rent_Date DATETIME,
 	Due_Date DATETIME,
@@ -111,13 +108,12 @@ CREATE TABLE Rentals(
 	Additional_Charges DECIMAL(10,2),
 	Payment_Method NVARCHAR(50),
 	Payment_Status NVARCHAR(50),
-	FOREIGN KEY (Nic_Number) REFERENCES Customers(Nic_Number),
+	
 	FOREIGN KEY (Registration_Number) REFERENCES MotorBikes(Registration_Number)
 )
 GO
 
-SELECT * FROM Rentals;
-GO
+
 
 CREATE TABLE Review(
 	Review_Id INT IDENTITY(1,1) PRIMARY KEY,
@@ -135,8 +131,7 @@ GO
 
 CREATE TABLE WaitLists(
 	Id INT IDENTITY(1,1) PRIMARY KEY,
-	Nic_Number NVARCHAR(40),
-	FOREIGN KEY (Nic_Number) REFERENCES Customers(Nic_Number),
+	Nic_Number NVARCHAR(40) REFERENCES Customers(Nic_Number),
 	Registration_Number NVARCHAR(50),
 	FOREIGN KEY (Registration_Number) REFERENCES MotorBikes(Registration_Number),
 	Request_Date DATETIME,
@@ -144,4 +139,36 @@ CREATE TABLE WaitLists(
 	Status NVARCHAR(100),
 	Position_In_Queue INT
 );
+GO
+
+CREATE TABLE Maintenances(
+	Maintenance_Id INT PRIMARY KEY IDENTITY(1,1),
+	Registration_Number NVARCHAR(50) REFERENCES MotorBikes(Registration_Number),
+	Maintenance_Date DATE,
+	Maintenance_Type NVARCHAR(40),
+	Description NVARCHAR(MAX),
+	Cost DECIMAL(10,3),
+	Performed_By NVARCHAR(100),
+	Status NVARCHAR(50),
+	Next_Scheduled_Maintenance NVARCHAR(50)
+)
+GO
+
+SELECT * FROM Users;
+GO
+SELECT * FROM Admins;
+GO
+SELECT * FROM Category;
+GO
+SELECT * FROM MotorBikes;
+GO
+SELECT * FROM Customers;
+GO
+SELECT * FROM Rentals;
+GO
+SELECT * FROM WaitLists;
+GO
+SELECT * FROM Maintenances;
+GO
+SELECT * FROM Review;
 GO
