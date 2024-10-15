@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bike Shop Customer Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            min-height: 100vh;
+        }
+        #sidebar {
+            width: 250px;
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            height: 100vh;
+            position: fixed;
+        }
+        #sidebar h2 {
+            margin-bottom: 30px;
+        }
+        #sidebar a {
+            color: white;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 15px;
+            padding: 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        #sidebar a:hover {
+            background-color: #34495e;
+        }
+        #main-content {
+            flex-grow: 1;
+            padding: 20px;
+            margin-left: 250px;
+            background-color: #ecf0f1;
+        }
+        #profile {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            cursor: pointer;
+        }
+        #profile-popup {
+            display: none;
+            position: absolute;
+            top: 60px;
+            right: 20px;
+            background-color: white;
+            border: 1px solid #bdc3c7;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .bike {
+            background-color: white;
+            border: 1px solid #bdc3c7;
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .review {
+            background-color: white;
+            border: 1px solid #bdc3c7;
+            border-radius: 5px;
+            padding: 15px;
+            margin-bottom: 15px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        form {
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #bdc3c7;
+            border-radius: 3px;
+        }
+        button {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #2980b9;
+        }
+        .star-rating {
+            font-size: 24px;
+            color: #f39c12;
+        }
+    </style>
+</head>
+<body>
+    <div id="sidebar">
+        <h2>Bike Shop</h2>
+        <a href="#browse">Browse Bikes</a>
+        <a href="#waitlist">Waitlist</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#history">Booking History</a>
+    </div>
+
+    <div id="main-content">
+        <div id="profile">
+            <img src="https://via.placeholder.com/40" alt="Profile" onclick="toggleProfilePopup()">
+            <div id="profile-popup">
+                <p>Name: John Doe</p>
+                <p>Email: john@example.com</p>
+                <button onclick="logout()">Logout</button>
+            </div>
+        </div>
+        <div id="content"></div>
+    </div>
+
+    <script>
+        const routes = {
+            browse: `
+                <h1>Browse Bikes</h1>
+                <div id="category-filter">
+                    <label for="category">Filter by Category:</label>
+                    <select id="category" onchange="filterBikes()">
+                        <option value="all">All Categories</option>
+                        <option value="mountain">Mountain Bikes</option>
+                        <option value="city">City Bikes</option>
+                        <option value="electric">Electric Bikes</option>
+                    </select>
+                </div>
+                <div id="bikes-list"></div>
+            `,
+            waitlist: `
+                <h1>Waitlist</h1>
+                <p>Join the waitlist for our most popular bikes!</p>
+                <form id="waitlist-form">
+                    <select name="bike" required>
+                        <option value="">Select a Bike</option>
+                        <option value="ElectricPro">Electric Pro</option>
+                        <option value="RacerX">Racer X</option>
+                    </select>
+                    <button type="submit">Join Waitlist</button>
+                </form>
+                <h2>Your Waitlist Status</h2>
+                <ul id="waitlist-status"></ul>
+            `,
+            reviews: `
+                <h1>Reviews</h1>
+                <div id="reviews-list"></div>
+                <h2>Write a Review</h2>
+                <form id="review-form">
+                    <select name="bike" required>
+                        <option value="">Select a Bike</option>
+                        <option value="Mountain Bike XTR">Mountain Bike XTR</option>
+                        <option value="City Cruiser Deluxe">City Cruiser Deluxe</option>
+                    </select>
+                    <textarea name="review" placeholder="Your review" required></textarea>
+                    <div class="star-rating">
+                        <span class="star" data-rating="1">&#9733;</span>
+                        <span class="star" data-rating="2">&#9733;</span>
+                        <span class="star" data-rating="3">&#9733;</span>
+                        <span class="star" data-rating="4">&#9733;</span>
+                        <span class="star" data-rating="5">&#9733;</span>
+                    </div>
+                    <input type="hidden" name="rating" id="rating-value" value="0">
+                    <button type="submit">Submit Review</button>
+                </form>
+            `,
+            history: `
+                <h1>Booking History</h1>
+                <ul id="booking-history"></ul>
+            `
+        };
+
+        const bikes = [
+            { name: "Mountain Bike XTR", price: 999, category: "mountain" },
+            { name: "City Cruiser Deluxe", price: 599, category: "city" },
+            { name: "Electric Pro", price: 1499, category: "electric" },
+            { name: "RacerX", price: 899, category: "mountain" }
+        ];
+
+        function router() {
+            let hash = window.location.hash.slice(1) || 'browse';
+            document.getElementById('content').innerHTML = routes[hash] || routes.browse;
+            if (hash === 'browse') loadBikes();
+            if (hash === 'reviews') {
+                loadReviews();
+                setupStarRating();
+            }
+            if (hash === 'history') loadBookingHistory();
+            if (hash === 'waitlist') {
+                loadWaitlistStatus();
+                document.getElementById('waitlist-form').addEventListener('submit', joinWaitlist);
+            }
+            if (document.getElementById('review-form')) {
+                document.getElementById('review-form').addEventListener('submit', submitReview);
+            }
+        }
+
+        function toggleProfilePopup() {
+            const popup = document.getElementById('profile-popup');
+            popup.style.display = popup.style.display === 'none' ? 'block' : 'none';
+        }
+
+        function logout() {
+            alert('Logged out successfully');
+            toggleProfilePopup();
+        }
+
+        function loadBikes() {
+            const bikesList = document.getElementById('bikes-list');
+            bikesList.innerHTML = bikes.map(bike => `
+                <div class="bike" data-category="${bike.category}">
+                    <h3>${bike.name}</h3>
+                    <p>Price: $${bike.price}</p>
+                    <p>Category: ${bike.category}</p>
+                    <button onclick="bookBike('${bike.name}')">Book Now</button>
+                </div>
+            `).join('');
+        }
+
+        function filterBikes() {
+            const category = document.getElementById('category').value;
+            const bikeElements = document.querySelectorAll('.bike');
+            bikeElements.forEach(bike => {
+                if (category === 'all' || bike.dataset.category === category) {
+                    bike.style.display = 'block';
+                } else {
+                    bike.style.display = 'none';
+                }
+            });
+        }
+
+        function bookBike(bikeName) {
+            alert(`You've booked the ${bikeName}`);
+            let history = JSON.parse(localStorage.getItem('bookingHistory')) || [];
+            history.push({ bike: bikeName, date: new Date().toLocaleDateString() });
+            localStorage.setItem('bookingHistory', JSON.stringify(history));
+        }
+
+        function joinWaitlist(event) {
+            event.preventDefault();
+            const bike = event.target.bike.value;
+            let waitlist = JSON.parse(localStorage.getItem('waitlist')) || [];
+            waitlist.push({ bike, date: new Date().toLocaleDateString() });
+            localStorage.setItem('waitlist', JSON.stringify(waitlist));
+            alert(`You've joined the waitlist for ${bike}`);
+            loadWaitlistStatus();
+        }
+
+        function loadWaitlistStatus() {
+            const waitlistStatus = document.getElementById('waitlist-status');
+            const waitlist = JSON.parse(localStorage.getItem('waitlist')) || [];
+            waitlistStatus.innerHTML = waitlist.map(item => `
+                <li>${item.bike} - Joined on ${item.date}</li>
+            `).join('') || '<li>You are not on any waitlist</li>';
+        }
+
+        function setupStarRating() {
+            const stars = document.querySelectorAll('.star');
+            stars.forEach(star => {
+                star.addEventListener('click', () => {
+                    const rating = star.dataset.rating;
+                    document.getElementById('rating-value').value = rating;
+                    stars.forEach(s => s.style.color = s.dataset.rating <= rating ? '#f39c12' : '#bdc3c7');
+                });
+            });
+        }
+
+        function submitReview(event) {
+            event.preventDefault();
+            const bike = event.target.bike.value;
+            const review = event.target.review.value;
+            const rating = document.getElementById('rating-value').value;
+            let reviews = JSON.parse(localStorage.getItem('bikeReviews')) || [];
+            reviews.push({ bike, review, rating });
+            localStorage.setItem('bikeReviews', JSON.stringify(reviews));
+            alert('Review submitted successfully');
+            loadReviews();
+            event.target.reset();
+            document.querySelectorAll('.star').forEach(s => s.style.color = '#bdc3c7');
+        }
+
+        function loadReviews() {
+            const reviewsList = document.getElementById('reviews-list');
+            const reviews = JSON.parse(localStorage.getItem('bikeReviews')) || [];
+            reviewsList.innerHTML = reviews.map(r => `
+                <div class="review">
+                    <h3>${r.bike}</h3>
+                    <p>${r.review}</p>
+                    <div class="star-rating">
+                        ${'★'.repeat(r.rating)}${'☆'.repeat(5 - r.rating)}
+                    </div>
+                </div>
+            `).join('') || '<p>No reviews yet.</p>';
+        }
+
+        function loadBookingHistory() {
+            const historyList = document.getElementById('booking-history');
+            const history = JSON.parse(localStorage.getItem('bookingHistory')) || [];
+            historyList.innerHTML = history.map(h => `
+                <li>${h.bike} - Booked on ${h.date}</li>
+            `).join('') || '<li>No booking history</li>';
+        }
+
+        window.addEventListener('hashchange', router);
+        window.addEventListener('load', router);
+    </script>
+</body>
+</html>

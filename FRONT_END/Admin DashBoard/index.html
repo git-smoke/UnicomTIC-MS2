@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bike Shop Admin Dashboard</title>
+    <style>
+        body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    #sidebar {
+      width: 250px;
+      background-color: #2c3e50;
+      color: white;
+      padding: 20px;
+      height: 100vh;
+    }
+
+    #sidebar a {
+      color: white;
+      text-decoration: none;
+      display: block;
+      margin-bottom: 15px;
+      padding: 10px;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    #sidebar a:hover {
+      background-color: #34495e;
+    }
+
+    #main-content {
+      flex-grow: 1;
+      padding: 20px;
+      background-color: #ecf0f1;
+    }
+
+    #profile {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      cursor: pointer;
+    }
+
+    #profile-popup {
+      display: none;
+      position: absolute;
+      top: 60px;
+      right: 20px;
+      background-color: white;
+      border: 1px solid #bdc3c7;
+      padding: 15px;
+      border-radius: 5px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .dashboard-stats {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 30px;
+    }
+
+    .stat-card {
+      background-color: white;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      width: 22%;
+    }
+
+    .stat-card h3 {
+      margin-top: 0;
+      color: #2c3e50;
+    }
+
+    .stat-card p {
+      font-size: 24px;
+      font-weight: bold;
+      color: #3498db;
+    }
+
+    form {
+      background-color: white;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px;
+    }
+
+    input,
+    select,
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #bdc3c7;
+      border-radius: 3px;
+    }
+
+    button {
+      background-color: #3498db;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #2980b9;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: white;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    th,
+    td {
+      text-align: left;
+      padding: 12px;
+      border-bottom: 1px solid #e0e0e0;
+    }
+
+    th {
+      background-color: #3498db;
+      color: white;
+    }
+    </style>
+</head>
+<body>
+    <div id="sidebar">
+        <h2>Admin Dashboard</h2>
+        <a href="#dashboard">Dashboard</a>
+        <a href="#categories">Manage Categories</a>
+        <a href="#bikes">Manage Bikes</a>
+        <a href="#rentals">Rental Requests</a>
+        <a href="#waitlist">Waitlist Requests</a>
+        <a href="#reviews">Review Requests</a>
+    </div>
+
+    <div id="main-content">
+        <div id="profile">
+            <img src="https://via.placeholder.com/40" alt="Admin" onclick="toggleProfilePopup()">
+            <div id="profile-popup">
+                <p>Name: Admin User</p>
+                <p>Email: admin@bikeshop.com</p>
+                <button onclick="logout()">Logout</button>
+            </div>
+        </div>
+        <div id="content"></div>
+    </div>
+
+    <script>
+        const routes = {
+            dashboard: `
+                <h1>Dashboard</h1>
+                <div class="dashboard-stats">
+                    <div class="stat-card">
+                        <h3>Customer Count</h3>
+                        <p id="customer-count">0</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Available Bikes</h3>
+                        <p id="available-bikes">0</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Rented Bikes</h3>
+                        <p id="rented-bikes">0</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Selling Rate</h3>
+                        <p id="selling-rate">0%</p>
+                    </div>
+                </div>
+                <h2>Recent Activities</h2>
+                <table id="recent-activities">
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Activity</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            `,
+            categories: `
+                <h1>Manage Categories</h1>
+                <form id="category-form">
+                    <input type="text" name="category" placeholder="New Category Name" required>
+                    <button type="submit">Add Category</button>
+                </form>
+                <h2>Existing Categories</h2>
+                <ul id="category-list"></ul>
+            `,
+            bikes: `
+                <h1>Manage Bikes</h1>
+                <form id="bike-form">
+                    <select name="category" id="bike-category" required>
+                        <option value="">Select Category</option>
+                    </select>
+                    <input type="text" name="name" placeholder="Bike Name" required>
+                    <input type="number" name="price" placeholder="Price" required>
+                    <input type="number" name="quantity" placeholder="Quantity" required>
+                    <button type="submit">Add Bike</button>
+                </form>
+                <h2>Existing Bikes</h2>
+                <table id="bike-list">
+                    <thead>
+                        <tr>
+                            <th>Category</th>
+                            <th>Name</th>
+                            <th>Price</th>
+                            <th>Quantity</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            `,
+            rentals: `
+                <h1>Rental Requests</h1>
+                <table id="rental-requests">
+                    <thead>
+                        <tr>
+                            <th>Customer</th>
+                            <th>Bike</th>
+                            <th>Date</th>
+                            <th>Status</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            `,
+            waitlist: `
+                <h1>Waitlist Requests</h1>
+                <table id="waitlist-requests">
+                    <thead>
+                        <tr>
+                            <th>Customer</th>
+                            <th>Bike</th>
+                            <th>Date</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            `,
+            reviews: `
+                <h1>Review Requests</h1>
+                <table id="review-requests">
+                    <thead>
+                        <tr>
+                            <th>Customer</th>
+                            <th>Bike</th>
+                            <th>Review</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            `
+        };
+
+        function router() {
+            let hash = window.location.hash.slice(1) || 'dashboard';
+            document.getElementById('content').innerHTML = routes[hash] || routes.dashboard;
+            if (hash === 'dashboard') loadDashboardData();
+            if (hash === 'categories') {
+                loadCategories();
+                document.getElementById('category-form').addEventListener('submit', addCategory);
+            }
+            if (hash === 'bikes') {
+                loadCategories();
+                loadBikes();
+                document.getElementById('bike-form').addEventListener('submit', addBike);
+            }
+            if (hash === 'rentals') loadRentalRequests();
+            if (hash === 'waitlist') loadWaitlistRequests();
+            if (hash === 'reviews') loadReviewRequests();
+        }
+
+        function toggleProfilePopup() {
+            const popup = document.getElementById('profile-popup');
+            popup.style.display = popup.style.display === 'none' ? 'block' : 'none';
+        }
+
+        function logout() {
+            alert('Logged out successfully');
+            toggleProfilePopup();
+        }
+
+        function loadDashboardData() {
+            document.getElementById('customer-count').textContent = '150';
+            document.getElementById('available-bikes').textContent = '75';
+            document.getElementById('rented-bikes').textContent = '25';
+            document.getElementById('selling-rate').textContent = '33%';
+
+            const activities = [
+                { date: '2024-10-14', activity: 'New bike added: Mountain Explorer X1' },
+                { date: '2024-10-13', activity: 'Rental request approved for City Cruiser' },
+                { date: '2024-10-12', activity: 'New category added: Electric Bikes' }
+            ];
+
+            const tableBody = document.querySelector('#recent-activities tbody');
+            tableBody.innerHTML = activities.map(activity => `
+                <tr>
+                    <td>${activity.date}</td>
+                    <td>${activity.activity}</td>
+                </tr>
+            `).join('');
+        }
+
+        function addCategory(event) {
+            event.preventDefault();
+            const category = event.target.category.value;
+            let categories = JSON.parse(localStorage.getItem('categories')) || [];
+            categories.push(category);
+            localStorage.setItem('categories', JSON.stringify(categories));
+            alert('Category added successfully');
+            loadCategories();
+            event.target.reset();
+        }
+
+        function loadCategories() {
+            const categories = JSON.parse(localStorage.getItem('categories')) || [];
+            const categoryList = document.getElementById('category-list');
+            const bikeCategory = document.getElementById('bike-category');
+            
+            if (categoryList) {
+                categoryList.innerHTML = categories.map(category => `<li>${category}</li>`).join('');
+            }
+            
+            if (bikeCategory) {
+                bikeCategory.innerHTML = '<option value="">Select Category</option>' + 
+                    categories.map(category => `<option value="${category}">${category}</option>`).join('');
+            }
+        }
+
+        function addBike(event) {
+            event.preventDefault();
+            const bike = {
+                category: event.target.category.value,
+                name: event.target.name.value,
+                price: event.target.price.value,
+                quantity: event.target.quantity.value
+            };
+            let bikes = JSON.parse(localStorage.getItem('bikes')) || [];
+            bikes.push(bike);
+            localStorage.setItem('bikes', JSON.stringify(bikes));
+            alert('Bike added successfully');
+            loadBikes();
+            event.target.reset();
+        }
+
+        function loadBikes() {
+            const bikes = JSON.parse(localStorage.getItem('bikes')) || [];
+            const bikeList = document.querySelector('#bike-list tbody');
+            bikeList.innerHTML = bikes.map(bike => `
+                <tr>
+                    <td>${bike.category}</td>
+                    <td>${bike.name}</td>
+                    <td>$${bike.price}</td>
+                    <td>${bike.quantity}</td>
+                    <td>
+                        <button onclick="editBike('${bike.name}')">Edit</button>
+                        <button onclick="deleteBike('${bike.name}')">Delete</button>
+                    </td>
+                </tr>
+            `).join('');
+        }
+
+        function editBike(bikeName) {
+            alert(`Edit bike: ${bikeName}`);
+        }
+
+        function deleteBike(bikeName) {
+            alert(`Delete bike: ${bikeName}`);
+        }
+
+        function loadRentalRequests() {
+            const rentalRequests = [
+                { customer: 'John Doe', bike: 'Mountain Explorer X1', date: '2024-10-15', status: 'Pending' },
+                { customer: 'Jane Smith', bike: 'City Cruiser Deluxe', date: '2024-10-14', status: 'Approved' }
+            ];
+
+            const tableBody = document.querySelector('#rental-requests tbody');
+            tableBody.innerHTML = rentalRequests.map(request => `
+                <tr>
+                    <td>${request.customer}</td>
+                    <td>${request.bike}</td>
+                    <td>${request.date}</td>
+                    <td>${request.status}</td>
+                    <td>
+                        <button onclick="approveRental('${request.customer}', '${request.bike}')">Approve</button>
+                        <button onclick="denyRental('${request.customer}', '${request.bike}')">Deny</button>
+                    </td>
+                </tr>
+            `).join('');
+        }
+
+        function approveRental(customer, bike) {
+            alert(`Approved rental for ${customer}: ${bike}`);
+        }
+
+        function denyRental(customer, bike) {
+            alert(`Denied rental for ${customer}: ${bike}`);
+        }
+
+        function loadWaitlistRequests() {
+            const waitlistRequests = [
+                { customer: 'Alice Johnson', bike: 'Electric Commuter Pro', date: '2024-10-13' },
+                { customer: 'Bob Williams', bike: 'Kids BMX Starter', date: '2024-10-12' }
+            ];
+
+            const tableBody = document.querySelector('#waitlist-requests tbody');
+            tableBody.innerHTML = waitlistRequests.map(request => `
+                <tr>
+                    <td>${request.customer}</td>
+                    <td>${request.bike}</td>
+                    <td>${request.date}</td>
+                    <td>
+                        <button onclick="notifyCustomer('${request.customer}', '${request.bike}')">Notify Availability</button>
+                    </td>
+                </tr>
+            `).join('');
+        }
+
+        function notifyCustomer(customer, bike) {
+            alert(`Notified ${customer} about availability of ${bike}`);
+        }
+
+        function loadReviewRequests() {
+            const reviewRequests = [
+                { customer: 'Emily Davis', bike: 'Mountain Explorer X1', review: 'Great bike, very sturdy!', rating: 5 },
+                { customer: 'Michael Brown', bike: 'City Cruiser Deluxe', review: 'Comfortable ride, but a bit heavy.', rating: 4 }
+            ];
+
+            const tableBody = document.querySelector('#review-requests tbody');
+            tableBody.innerHTML = reviewRequests.map(request => `
+                <tr>
+                    <td>${request.customer}</td>
+                    <td>${request.bike}</td>
+                    <td>${request.review} (${request.rating}/5)</td>
+                    <td>
+                        <button onclick="approveReview('${request.customer}', '${request.bike}')">Approve</button>
+                        <button onclick="rejectReview('${request.customer}', '${request.bike}')">Reject</button>
+                    </td>
+                </tr>
+            `).join('');
+        }
+
+        function approveReview(customer, bike) {
+            alert(`Approved review from ${customer} for ${bike}`);
+        }
+
+        function rejectReview(customer, bike) {
+            alert(`Rejected review from ${customer} for ${bike}`);
+        }
+
+        window.addEventListener('hashchange', router);
+        window.addEventListener('load', router);
+    </script>
+</body>
+</html>

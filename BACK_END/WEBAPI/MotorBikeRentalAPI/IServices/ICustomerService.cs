@@ -1,6 +1,6 @@
 ﻿namespace MotorBikeRentalAPI.IServices
 {
-    public interface ICustomerInterface
+    public interface ICustomerService
     {
     }
 }
