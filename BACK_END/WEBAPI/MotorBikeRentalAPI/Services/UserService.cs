@@ -1,4 +1,5 @@
-﻿using MotorBikeRentalAPI.IRepositories;
+﻿using MotorBikeRentalAPI.DTOs.UserDTO;
+using MotorBikeRentalAPI.IRepositories;
 using MotorBikeRentalAPI.IServices;
 using MotorBikeRentalAPI.Models;
 
@@ -23,17 +24,14 @@ namespace MotorBikeRentalAPI.Services
             return _userRepository.AddUser(user);
         }
 
-        public UserDTO Authenticate(string username, string password)
+        public User Authenticate(string username, string password)
         {
-            // Hardcoded admin check
             if (username == AdminUsername && password == AdminPassword)
             {
-                return new UserDTO { Username = AdminUsername, UserType = "Admin" };
+                return new User { UserName = AdminUsername, User_Type = "Admin" };
             }
-
-            // Authenticate customer
             var user = _userRepository.GetUserByUsername(username);
-            if (user != null && user.PasswordHash == password)
+            if (user != null && user.Password_Hash == password)
             {
                 return user;
             }
