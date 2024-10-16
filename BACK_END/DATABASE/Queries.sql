@@ -12,7 +12,7 @@ CREATE TABLE Users(
 	User_Type NVARCHAR(100),
 	Created_Data DATETIME,
 	Last_Login DATETIME,
-	Is_Active NVARCHAR(50)
+	Is_Active BIT
 );
 GO
 
@@ -87,9 +87,13 @@ CREATE TABLE Customers(
 )
 GO
 
+ALTER TABLE Users
+ALTER COLUMN Is_Active BIT;
 
 
-DROP TABLE Customers;
+DROP TABLE Users;
+DROP TABLE Admins
+DROP TABLE Customers
 
 CREATE TABLE Rentals(
 	Id INT IDENTITY(1,1) PRIMARY KEY,
@@ -156,19 +160,28 @@ GO
 
 SELECT * FROM Users;
 GO
+DROP TABLE Users;
 SELECT * FROM Admins;
 GO
+DROP TABLE Admins;
 SELECT * FROM Category;
 GO
+DROP TABLE Category;
 SELECT * FROM MotorBikes;
 GO
+DROP TABLE MotorBikes;
 SELECT * FROM Customers;
 GO
+DROP TABLE Customers;
 SELECT * FROM Rentals;
 GO
+DROP TABLE Rentals;
 SELECT * FROM WaitLists;
 GO
+DROP TABLE WaitLists;
 SELECT * FROM Maintenances;
 GO
+DROP TABLE Maintenances;
 SELECT * FROM Review;
 GO
+DROP TABLE Review;

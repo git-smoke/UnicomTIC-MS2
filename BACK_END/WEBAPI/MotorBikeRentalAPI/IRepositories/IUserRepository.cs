@@ -1,6 +1,10 @@
-﻿namespace MotorBikeRentalAPI.IRepositories
+﻿using MotorBikeRentalAPI.Models;
+
+namespace MotorBikeRentalAPI.IRepositories
 {
     public interface IUserRepository
     {
+       
+
     }
 }

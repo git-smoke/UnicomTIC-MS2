@@ -9,7 +9,7 @@
         public string User_Type { get; set; }
         public DateTime Created_Date { get; set; }
         public DateTime Last_Login { get; set; }
-        public string Is_Active { get; set; }
+        public bool Is_Active { get; set; }
        
     }
 }
